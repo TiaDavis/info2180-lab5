@@ -1,1 +1,67 @@
-/* Add your own styles */
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    max-width:1300px;
+    background-color:#EFEFEF;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+    place-content:center;
+    place-items:center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+
+
+main{
+    max-width:1300px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+    justify-content:center;
+
+
+}
+
+
+button{
+    padding:1rem;
+}
+
+#country{
+    padding:1rem;
+}
+
+
+
+table{
+    margin:1rem;
+     text-align:left;  
+}
+
+table th{
+    padding:1em 0.2em;
+    text-align:center;
+    margin:1em 0;
+    border:2px solid #152D35;
+    background-color: #345B63;
+    color:#fff;
+
+}
+
+table td{
+    padding: .5em;
+    text-align:center;
+    border:2px solid #152D35;
+}
+
+table tr{
+    padding:2em;
+}
+
+ table  tr:hover {
+     background-color: #345B63;
+    color:#fff;
+ } 
