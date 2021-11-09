@@ -2,13 +2,13 @@ header{
     text-align: center;
     vertical-align: middle;
     background-image:url(http://www.gabdig.com/wp-content/uploads/2016/05/happiness-cool-amazing-maps-world.jpg) ;
-    padding: 33px;
-    border: 0px;
-    margin: -7px;
+    padding: 30px;
+    border: 4px;
+    margin: 7px;
 }
 body{
     background-color: rgb(207, 204, 33) ;
-    font-size: 20px;
+    font-size: 21px;
     color: rgb(0, 0, 0);
 }
 
@@ -16,26 +16,23 @@ main{
     display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 65px;
+    padding: 60px;
     border: 1px;
     margin: 0px;
     background-color: rgb(207, 204, 33) ;
-    border: 0px;
+    border: 5px;
     margin: -7px;
 }
 
 h1 {
     color: rgb(0, 0, 0);
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto, "Helvitca Neue", Arial, "Noto Sans", sans-serif;
+    font-family: "Gill Sans", sans-serif;
     font-weight: bolder;
     font-size: 40px;
     display: inline-block;
     padding: 30px;
     width: 1000px;
     background: rgba(240, 137, 3, 0.15);
-    box-shadow: 0 8px 32px 0 rgba(242, 245, 71, 0.37);
-    backdrop-filter: blur( 1.5px );
-    -webkit-backdrop-filter: blur( 11.5px );
     border-radius: 10px;
     ;
 }
