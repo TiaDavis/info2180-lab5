@@ -1,67 +1,101 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
-
-body{
-    max-width:1300px;
-    background-color:#EFEFEF;
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    justify-content:center;
-    place-content:center;
-    place-items:center;
-    font-family: 'Mochiy Pop P One', sans-serif;
+header{
+    text-align: center;
+    vertical-align: middle;
+    background-image:url(http://www.gabdig.com/wp-content/uploads/2016/05/happiness-cool-amazing-maps-world.jpg) ;
+    padding: 33px;
+    border: 0px;
+    margin: -7px;
 }
-
-
-
+body{
+    background-color: rgb(207, 204, 33) ;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
 
 main{
-    max-width:1300px;
-    display:flex;
-    align-items:center;
-    flex-direction:column;
-    justify-content:center;
-
-
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 65px;
+    border: 1px;
+    margin: 0px;
+    background-color: rgb(207, 204, 33) ;
+    border: 0px;
+    margin: -7px;
 }
 
+h1 {
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",Roboto, "Helvitca Neue", Arial, "Noto Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    display: inline-block;
+    padding: 30px;
+    width: 1000px;
+    background: rgba(240, 137, 3, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(242, 245, 71, 0.37);
+    backdrop-filter: blur( 1.5px );
+    -webkit-backdrop-filter: blur( 11.5px );
+    border-radius: 10px;
+    ;
+}
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse:separate;
+    width: 90%;
+    vertical-align: middle;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+  
+td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+}
 
-button{
-    padding:1rem;
+th {
+    text-align: center;
+    border: none;
+    padding: 8px;
+    font-weight: bold;
+}
+
+table tr:nth-child(even){background-color: #c9be21;}
+
+table tr:hover {background-color: rgb(37, 188, 214);}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border: none;
+  background-color:rgb(192, 174, 15);
+  color: white;
 }
 
 #country{
-    padding:1rem;
+    background-color: rgba( 203, 191, 191, 0.15 );
+    padding: 20px 10px; 
+    line-height: 15px; 
+    width: 1000px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
 }
 
-
-
-table{
-    margin:1rem;
-     text-align:left;  
+button {
+    display: inline-block;
+    height: 60px;
+    width: 200px;  
+    background-color: rgb(16, 30, 105);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    box-shadow: none;
+    
 }
-
-table th{
-    padding:1em 0.2em;
-    text-align:center;
-    margin:1em 0;
-    border:2px solid #152D35;
-    background-color: #345B63;
-    color:#fff;
-
-}
-
-table td{
-    padding: .5em;
-    text-align:center;
-    border:2px solid #152D35;
-}
-
-table tr{
-    padding:2em;
-}
-
- table  tr:hover {
-     background-color: #345B63;
-    color:#fff;
- } 

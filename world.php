@@ -24,9 +24,9 @@ $city = $cityquery->fetchAll(PDO::FETCH_ASSOC);
 <table>
           <thead>
             <tr>
-              <th>Country</th>
+              <th>Name</th>
               <th>Continent</th>
-              <th>Year of Independence</th>
+              <th>Independence</th>
               <th>Head of State</th>
             </tr>
           </thead>
